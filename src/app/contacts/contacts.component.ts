@@ -8,7 +8,7 @@ import { FormControl, FormGroup, Validators, ReactiveFormsModule } from '@angula
 })
 export class ContactsComponent implements OnInit {
 
-  text = 'contact page';
+  text = 'Contact Page';
   contactForm: FormGroup;
   contact = {
     name: '',

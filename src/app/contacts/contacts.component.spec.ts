@@ -41,7 +41,7 @@ describe('ContactsComponent', () => {
   });
 
   it(`should have as text 'contact page'`, async(() => {
-    expect(component.text).toEqual('contact page');
+    expect(component.text).toEqual('Contact Page');
   }));
 
   it(`should set sutmitted to true`, async(() => {
